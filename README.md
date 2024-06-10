@@ -148,7 +148,7 @@ WORK IN PROGRESS
 ## 4.1.1 Training
 > [!NOTE]
 > The generated instance label is supposed to be stored in os.path.join(dataset_preprocess_root, "instance_labels_v2")
-1. Change the `dataset_preprocess_root` and `dataset_root` to the preprocess and raw data folder respectively.
+1. Change the `dataset_preprocess_root` and `dataset_root` of the training command below to the preprocess and raw data folder respectively.
 2. The `log_dir` is the folder to store the training logs and checkpoints.
 3. Run the following command to train PaSCo w/o MIMO with batchsize of 2 on 2 V100-32G GPUs (1 item per GPU):
 
@@ -208,7 +208,7 @@ WORK IN PROGRESS
       ```
 > [!NOTE]
 > Note that **voxel ece = (ssc empty ece + ssc nonempty ece)/2** and **voxel nll = (ssc empty nll + ssc nonempty nll)/2**.
-> The inference time reported in the paper was measured on an A100 GPU. So it will be faster than on v100.
+> The inference time reported in the paper was measured on an A100 GPU so it is faster than on v100.
 
 ## 4.2. PaSCo w/ MIMO
 WORK IN PROGRESS

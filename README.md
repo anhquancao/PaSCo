@@ -214,7 +214,7 @@ WORK IN PROGRESS
 WORK IN PROGRESS
 
 # Acknowledgment
-We thank the authors of
+We thank the authors of the following repositories for making their code and models publicly available:
 - https://github.com/valeoai/WaffleIron
 - https://github.com/PRBonn/MaskPLS
 - https://github.com/SCPNet/Codes-for-SCPNet
@@ -222,7 +222,6 @@ We thank the authors of
 - https://github.com/yanx27/JS3C-Net
 - https://github.com/facebookresearch/Mask2Former
 
-for making their code and model publicly available.
 
 The research was supported by the French project SIGHT (ANR-20-CE23-0016), the ERC Starting Grant SpatialSem (101076253), and the SAMBA collaborative project co-funded by
 BpiFrance in the Investissement d’Avenir Program. Computation was performed using HPC resources from GENCI–IDRIS (2023-AD011014102,

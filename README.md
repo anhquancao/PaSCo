@@ -169,7 +169,7 @@ WORK IN PROGRESS
 
 ## 4.1.2 Evaluation
 1. Download the pretrained checkpoint at [here](https://github.com/astra-vision/PaSCo/releases/download/v0.1.0/pasco_single.ckpt) and put it into `ckpt` folder or use your trained checkpoint.
-2. Run the following command to evaluate PaSCo w/o MIMO on 1 V100-32G GPUs (1 item per GPU). CHECKPOINT_PATH is the path to the downloaded checkpoint:
+2. Run the following command to evaluate PaSCo w/o MIMO on 1 V100-32G GPUs (1 item per GPU). `ckpt/pasco_single.ckpt` is the path to the downloaded checkpoint:
       ```
       python scripts/eval.py --n_infers=1 --model_path=ckpt/pasco_single.ckpt
       ```

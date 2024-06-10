@@ -165,7 +165,7 @@ WORK IN PROGRESS
     
       ```
 > [!NOTE]
-> During training, the reported metric is lower than the final metrics because we limit the number of generated voxels to prevent running out of memory. The final metric is determined during evaluation and is used solely to assess if the training is progressing well.
+> During training, the reported metric is lower than the final metrics because we limit the number of generated voxels to prevent running out of memory. The training metrics are used solely to assess the progress of the training. The final metric is determined during evaluation.
 
 ## 4.1.2 Evaluation
 1. Download the pretrained checkpoint at [here](https://github.com/astra-vision/PaSCo/releases/download/v0.1.0/pasco_single.ckpt) and put it into `ckpt` folder or use your trained checkpoint.
